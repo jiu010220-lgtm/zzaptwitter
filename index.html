@@ -114,14 +114,24 @@ const MOCK_GROUPS = [
     { id: 'group1', name: 'FF14 썰', icon: 'A' },
     { id: 'group2', name: '드림 썰', icon: 'B' },
     { id: 'group3', name: '일기장', icon: 'C' },
+    { id: 'group4', name: '디 팀', icon: 'D' },
+    { id: 'group5', name: '이 팀', icon: 'E' },
 ];
 
 const MOCK_USERS = [
     { uid: 'user-001', name: '하나미', handle: 'user1', color: 'bg-gray-500', profile: '1', group: 'group1' },
     { uid: 'user-002', name: '미나', handle: 'user2', color: 'bg-gray-500', profile: '2', group: 'group1' },
+    { uid: 'user-002', name: '미나', handle: 'user2', color: 'bg-gray-500', profile: '2', group: 'group1' },
+    { uid: 'user-002', name: '미나', handle: 'user2', color: 'bg-gray-500', profile: '2', group: 'group1' },
+    { uid: 'user-003', name: '드림주', handle: 'user3', color: 'bg-gray-500', profile: '3', group: 'group2' },
+    { uid: 'user-004', name: '드림주', handle: 'user4', color: 'bg-gray-500', profile: '4', group: 'group2' },
     { uid: 'user-003', name: '드림주', handle: 'user3', color: 'bg-gray-500', profile: '3', group: 'group2' },
     { uid: 'user-004', name: '드림주', handle: 'user4', color: 'bg-gray-500', profile: '4', group: 'group2' },
     { uid: 'user-005', name: '공주', handle: 'user5', color: 'bg-gray-500', profile: '5', group: 'group3' },
+    { uid: 'user-006', name: '유저 6', handle: 'user6', color: 'bg-gray-500', profile: '6', group: 'group3' },
+    { uid: 'user-005', name: '공주', handle: 'user5', color: 'bg-gray-500', profile: '5', group: 'group3' },
+    { uid: 'user-005', name: '공주', handle: 'user5', color: 'bg-gray-500', profile: '5', group: 'group3' },
+    { uid: 'user-006', name: '유저 6', handle: 'user6', color: 'bg-gray-500', profile: '6', group: 'group3' },
     { uid: 'user-006', name: '유저 6', handle: 'user6', color: 'bg-gray-500', profile: '6', group: 'group3' },
     { uid: 'user-007', name: '유저 7', handle: 'user7', color: 'bg-gray-500', profile: '7', group: 'group4' },
     { uid: 'user-008', name: '유저 8', handle: 'user8', color: 'bg-gray-500', profile: '8', group: 'group4' },
@@ -2371,4 +2381,5 @@ const App = () => {
     const container = document.getElementById('root');
     const root = ReactDOM.createRoot(container);
     root.render(<App />);
+
 </script>
